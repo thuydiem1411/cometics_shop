@@ -1,0 +1,99 @@
+.container__dropdown {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    padding: 15rem;
+    position: relative;
+}
+.dropdown__item h3 {
+    font-size: 1.8rem;
+    color: brown;
+    text-shadow: 1px 1px 2px #ba2323;
+}
+.nav__icon {
+    height: 6rem;
+    width: 8rem;
+    gap:3rem;
+}
+.container__dropdown {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+  
+  .dropdown__item {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dropdown__content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+  }
+ 
+  
+  /* .dropdown__item:hover .dropdown__content {
+    display: grid;
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    height: auto;
+    margin-top: 22px;
+    margin-left: -200px;
+  } */
+  
+  .dropdown__item:hover {
+    color: #ba2323;
+  }
+  .dropdown__item:hover h3 {
+    color: white; /* Thay đổi màu sắc tùy ý */
+    font-style: italic;
+    text-decoration:underline;
+    transition: none;
+  }
+  .dropdown__item h4{
+    font-size: 1.4rem;
+  }
+  .dropdown__content a {
+    display: block;
+    margin: 8px;
+  }
+  .content__a {
+    width: 10rem;
+}
+.dropdown__content1 {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.dropdown__item.open .dropdown__content1 {
+  display: block;
+}
+.dropdown__content1 {
+  margin-top: 30px;
+}
+.dropdown__content1 a {
+  display: block;
+  margin: 8px;
+}
+
+ .dropdown__item.open .dropdown__content {
+    display: grid;
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    height: auto;
+    margin-top: 22px;
+    margin-left: -200px;
+  }

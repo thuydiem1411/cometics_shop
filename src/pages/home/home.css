@@ -1,0 +1,106 @@
+.header__button {
+    margin-top: 1rem;
+    width: auto;
+    height: 3rem;
+    background-color: brown;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header__button:hover {
+    background: #000000;
+  }
+  .header__wrapper {
+    margin-top: 4.5rem;
+    margin-left: 4.5rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 2px;
+}
+h3.home__title {
+  font-size: 2.0rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+section{
+  margin-top: 2rem;
+ margin-left: 10rem;
+ margin-bottom: 2rem;
+}
+.container__card {
+  width: 22rem;
+}
+.container__discover {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+h3.title__discover {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+.content {
+  margin-top: 10rem;
+}
+.container__video {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.container__reviews {
+  width: 155rem;
+  height: auto;
+  display: flex;
+  gap: 5rem;
+  justify-content: left;
+  margin-left: -5rem;
+}
+.controls {
+  margin-top: 2rem;
+  display: flex;
+ 
+  position: relative;
+  justify-content: center; /* căn giữa theo chiều ngang */
+  align-items: center; /* căn giữa theo chiều dọc */
+  /*Thêm các thuộc tính khác nếu cần*/
+}
+.controls__content{
+  display: flex;
+  gap: 5rem;
+ 
+}
+button.controls__button {
+  font-size: 2.5rem;
+  background-color: pink;
+  border-radius: 0.5rem;
+  color: white;
+  display: flex;
+}
+.controls__button:hover{
+  background-color: gainsboro;
+  cursor: pointer;
+}
+.review-item {
+  width: 29rem;
+}
+img.img__reals {
+  width: 26rem;
+  height: auto;
+  display: flex;
+  gap: 1.5rem;
+  border-radius: 1rem;
+}
+.container__reals {
+  display: flex;
+  gap:5rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
