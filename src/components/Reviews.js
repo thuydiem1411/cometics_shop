@@ -25,7 +25,9 @@ const Reviews = () => {
   const showPrevButton = currentImageIndex !== reviews.length - 3;
 
   return (
-    <section className="reviews">
+  <>
+  
+  <section className="reviews">
       <h3 className="home__title">REAL RESULTS, REAL REVIEWS</h3>
       <div className="container__reviews">
         {displayedReviews.map(({ id, img }, index) => (
@@ -54,6 +56,9 @@ const Reviews = () => {
         </div>
       </div>
     </section>
+    <hr className="separator" />
+  </>
+    
   );
 };
 

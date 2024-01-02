@@ -9,6 +9,9 @@ import Reals1 from "../Image/Real2.jpg"
 import Reals2 from "../Image/Real3.jpg"
 import Reals3 from "../Image/Real4.jpg"
 import Reals4 from "../Image/Real5.jpg"
+import TopFooter from "../Image/top_footer1.png"
+import TopFooter1 from "../Image/top_footer2.png"
+import TopFooter2 from "../Image/top_footer3.png"
 export const links = [
   {
     name: "Home",
@@ -104,5 +107,25 @@ export const reals = [
     name:"EVERCALM™️",
     content:"BARRIER SUPPORT ELIXIR",
     img: Reals4,
+  },
+];
+export const infor = [
+  {
+    id: 1,
+    name:"CLEAN FORMULAS",
+    content:"We formulate to a 'YES' list of clean ingredients to deliver proven results for sensitive skin.",
+    img: TopFooter,
+  },
+  {
+    id: 2,
+    name:"BIOACTIVE INGREDIENTS",
+    content:"Inspired by the language of skin itself, we choose to use the purest grade natural ingredients.",
+    img: TopFooter1,
+  },
+  {
+    id: 3,
+    name:"ZERO WASTE PACKAGING",
+    content:"We pledge to only produce packaging designed to be recyclable, recycled, or reusable. ",
+    img: TopFooter2,
   },
 ];

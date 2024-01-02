@@ -5,11 +5,11 @@ import Explore from "./pages/explore/Explore";
 import Routine from "./pages/contact/Routine";
 import Home from "./pages/home/Home";
 import Marquee from "./components/Marquee";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
-      
+    <BrowserRouter>  
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
@@ -17,6 +17,7 @@ function App() {
         <Route path="/exlore" element={<Explore />} />
         <Route path="/routine" element={<Routine />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

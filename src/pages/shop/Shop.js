@@ -1,10 +1,8 @@
-import Navbar from "../../components/Navbar"
-import "./shop.css"
+
+import "./shop.css";
 
 const Shop = () => {
-  return (
-<Navbar/>
-  )
-}
+  return <h3>SHOP</h3>;
+};
 
-export default Shop
+export default Shop;

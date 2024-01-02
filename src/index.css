@@ -164,12 +164,14 @@ section {
 .header__container-bg img{
 opacity: 0.5;
 } 
-.header__content{
-    position: relative;
-    width: 44%;
-    margin: 0 auto;
-    text-align: center;
-    color: var(--color-gray-100);
+.header__content {
+  position: relative;
+  display: grid;
+  width: 44%;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--color-gray-100);
+  justify-items: center;
 }
 .header__content h2{
     margin-bottom: 1rem ;

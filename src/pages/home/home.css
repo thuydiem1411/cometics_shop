@@ -1,14 +1,16 @@
 .header__button {
-    margin-top: 1rem;
-    width: auto;
-    height: 3rem;
-    background-color: brown;
-    color: #fff;
-    padding: 8px 16px;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+  margin-top: 1rem;
+  display: flex;
+  width: auto;
+  height: 3rem;
+  background-color: brown;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-items: center;
+}
   
   .header__button:hover {
     background: #000000;
@@ -28,10 +30,9 @@ h3.home__title {
   justify-content: center;
   margin: 3rem;
 }
-section{
-  margin-top: 2rem;
- margin-left: 10rem;
- margin-bottom: 2rem;
+section {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 .container__card {
   width: 22rem;
@@ -54,12 +55,10 @@ h3.title__discover {
   margin-bottom: 3rem;
 }
 .container__reviews {
-  width: 155rem;
   height: auto;
   display: flex;
   gap: 5rem;
-  justify-content: left;
-  margin-left: -5rem;
+  justify-content: center;
 }
 .controls {
   margin-top: 2rem;
@@ -86,9 +85,6 @@ button.controls__button {
   background-color: gainsboro;
   cursor: pointer;
 }
-.review-item {
-  width: 29rem;
-}
 img.img__reals {
   width: 26rem;
   height: auto;
@@ -103,4 +99,161 @@ img.img__reals {
   text-align: center;
   justify-content: center;
 }
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  margin: 20px 0;
+}
+.infor{
+  margin-top: 3rem;
+}
+.infor_card {
+  /* width: auto;
+  height: auto;
+  display: grid;
+  justify-items: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.content__infor {
+  display: flex;
+  gap: 3.2rem;
+  margin: 0rem 4rem 0rem 4rem;
 
+}
+img.infor_img {
+  width: 5rem;
+  height: 3rem;
+  display: flex;
+}
+h3.title__infor {
+  color: black;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  font-size: 1.5rem;
+}
+p.paramgrap__infor {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.3rem;
+}
+.container__stype {
+  display: flex;
+  justify-content: center;
+  background: #f4f6f7;
+  height: 25rem;
+}
+
+.content__type {
+  display: flex;
+  align-items: center;
+  margin: 0rem 10rem 0rem 10rem;
+  
+}
+
+.stype__card {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  position: relative;
+}
+.para_type{
+  font-size: 1.3rem;
+}
+
+.para_type {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.2;
+
+}
+.type__content {
+  width: 38rem;
+  text-align: center;
+}
+span.card__span {
+  color: #cbcbcb;
+  font-size: 2.4rem;
+  display: flex;
+}
+.stype__image {
+  position: absolute;
+  bottom: -5.5rem;
+  left: 13rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+}
+img.image__logo {
+  width: 12rem;
+  height: 3rem;
+}
+.container__planet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d1ead1;
+  height: 5rem;
+}
+
+.planet__content {
+  display: flex;
+  align-items: center;
+}
+
+.text__logo {
+  display: flex;
+  align-items: center;
+}
+
+.planet__text {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+}
+
+.planet__text span {
+  font-weight: bold;
+}
+
+.planet__text p,
+.planet__text a {
+  margin: 0;
+  font-size: 1.2rem;
+}
+.planet__image {
+  width: 3rem;
+}
+
+.text__logo::after {
+  content: "";
+  height: 1px;
+  background: black;
+  width: 18px;
+  transform: rotate(90deg);
+}
+a.text__a {
+  text-decoration: underline;
+}
+.container__experst {
+  width: 100%;
+  height: 17rem;
+}
+.container__logo {
+  width: 100%;
+  height: 17rem;
+  display: grid;
+  justify-content: space-around;
+  align-content: space-evenly;
+
+}
+img.logo__experst {
+  width: 14rem;
+}

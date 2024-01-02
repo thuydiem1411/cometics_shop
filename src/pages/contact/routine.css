@@ -1,0 +1,97 @@
+.routine__content {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.routine__left h2{
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+}
+.routine__left p, span, button {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+p.left__title {
+    font-weight: bold;
+    font-size: 1.9rem;
+    line-height: 4rem;
+}
+p.left__content {
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+span.left__content {
+    font-size: 1.2rem;
+    
+}
+.routine__left {
+    width: 43rem;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.image-group {
+    display: flex;
+    width: 29rem;
+}
+.container__routine {
+    /* width: 100%; */
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+}
+button.routine__left__btn {
+    width: 20rem;
+    height: 4rem;
+    font-size: 1.7rem;
+    color: white;
+    display: flow;
+    border-radius: 13px;
+    background: #4f874f;
+    margin: 1.5rem 0rem 2.5rem 0rem;
+}
+.routine__left__btn:hover{
+    background:#bdd9bd ;
+    cursor: pointer;
+}
+p.left__contentbot {
+    font-size: 14px;
+}
+section.InfoRoutine {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.container__inforoutine {
+    width: 79%;
+    height: auto;
+    /* display: grid; */
+    text-align: center;
+}
+.InfoRoutine__wrapper {
+    display: grid;
+    justify-items: center;
+}
+.inforoutine__content {
+    font-size: 19px;
+    line-height: 2rem;
+}
+.inforoutine__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0rem;
+}
+.InfoRoutine::before {
+    display: flex;
+    content: "";
+    height: 1px;
+    background: black;
+    width: 100%;
+    transform: rotate(0deg);
+    margin-bottom: 2rem;
+}

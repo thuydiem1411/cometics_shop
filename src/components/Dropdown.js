@@ -44,47 +44,47 @@ const Dropdown = () => {
         <div className="dropdown__content">
           <div className="content__a">
             <h4 className="nav__title">By category</h4>
-            <a href="#">Bestsellers</a>
-            <a href="#">Cleansers</a>
-            <a href="#">Exfoliators & toners</a>
-            <a href="#">Serums</a>
-            <a href="#">Moisturizers</a>
-            <a href="#">Eye Creams</a>
-            <a href="#">Masks</a>
-            <a href="#">Make up prep</a>
-            <a href="#">Body Care</a>
-            <a href="#">Hair Care</a>
-            <a href="#">Save with sets</a>
-            <a href="#">Travel</a>
-            <a href="#">Gitfs</a>
+            <Link to="#">Bestsellers</Link>
+            <Link to="#">Cleansers</Link>
+            <Link to="#">Exfoliators & toners</Link>
+            <Link to="#">Serums</Link>
+            <Link to="#">Moisturizers</Link>
+            <Link to="#">Eye Creams</Link>
+            <Link to="#">Masks</Link>
+            <Link to="#">Make up prep</Link>
+            <Link to="#">Body Care</Link>
+            <Link to="#">Hair Care</Link>
+            <Link to="#">Save with sets</Link>
+            <Link to="#">Travel</Link>
+            <Link to="#">Gitfs</Link>
           </div>
           <div className="content__a">
             <h4 className="nav__title">Solutions for</h4>
-            <a href="#">Sensitivity & Redness</a>
-            <a href="#">Eczema-prone</a>
-            <a href="#">Dark Spots & Hyperpigmentation </a>
-            <a href="#">Dullness & Uneven Skin Tone</a>
-            <a href="#">Dehydration & Dryness</a>
-            <a href="#">Blemishes & Breakouts</a>
+            <Link to="#">Sensitivity & Redness</Link>
+            <Link to="#">Eczema-prone</Link>
+            <Link to="#">Dark Spots & Hyperpigmentation </Link>
+            <Link to="#">Dullness & Uneven Skin Tone</Link>
+            <Link to="#">Dehydration & Dryness</Link>
+            <Link to="#">Blemishes & Breakouts</Link>
           </div>
           <div className="content__a">
             <h4 className="nav__title">By skin type</h4>
-            <a href="#">Sensitive</a>
-            <a href="#">Dry</a>
-            <a href="#">Combination to Oily </a>
-            <a href="#">Mature</a>
-            <a href="#">Balanced</a>
+            <Link to="#">Sensitive</Link>
+            <Link to="#">Dry</Link>
+            <Link to="#">Combination to Oily </Link>
+            <Link to="#">Mature</Link>
+            <Link to="#">Balanced</Link>
           </div>
           <div className="content__a">
             <h4 className="nav__title">By range</h4>
-            <a href="#">Evercalm</a>
-            <a href="#">Radiance</a>
-            <a href="#">Everhydrate </a>
-            <a href="#">Bip Retinoid</a>
-            <a href="#">Clearncalm</a>
-            <a href="#">Perdect Canvas</a>
-            <a href="#">Body Care</a>
-            <a href="#">Hair Care </a>
+            <Link to="#">Evercalm</Link>
+            <Link to="#">Radiance</Link>
+            <Link to="#">Everhydrate </Link>
+            <Link to="#">Bip Retinoid</Link>
+            <Link to="#">Clearncalm</Link>
+            <Link to="#">Perdect Canvas</Link>
+            <Link to="#">Body Care</Link>
+            <Link to="#">Hair Care </Link>
           </div>
         </div>
       </div>
@@ -95,12 +95,12 @@ const Dropdown = () => {
         <h3>Explore</h3>
         <div className="dropdown__content1">
           <div className="content__a">
-            <a href="#">About REN</a>
-            <a href="#">All Skin Is Sensitive</a>
-            <a href="#">Bioactives Glossary</a>
-            <a href="#">Pregnancy Skincare</a>
-            <a href="#">Clean Thoughts</a>
-            <a href="#">Clean Rewards</a>
+            <Link to="#">About REN</Link>
+            <Link to="#">All Skin Is Sensitive</Link>
+            <Link to="#">Bioactives Glossary</Link>
+            <Link to="#">Pregnancy Skincare</Link>
+            <Link to="#">Clean Thoughts</Link>
+            <Link to="#">Clean Rewards</Link>
           </div>
         </div>
       </div>
