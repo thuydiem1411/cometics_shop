@@ -1,97 +1,352 @@
 .routine__content {
-    width: 95%;
-    display: flex;
-    align-items: center;
-    gap: 3rem;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
 }
-.routine__left h2{
-    display: flex;
-    justify-content: center;
-    color: black;
-    
+.routine__left h2 {
+  display: flex;
+  justify-content: center;
+  color: black;
 }
-.routine__left p, span, button {
-    display: flex;
-    justify-content: center;
-    color: black;
+.routine__left p,
+span,
+button {
+  display: flex;
+  justify-content: center;
+  color: black;
 }
 p.left__title {
-    font-weight: bold;
-    font-size: 1.9rem;
-    line-height: 4rem;
+  font-weight: bold;
+  font-size: 1.9rem;
+  line-height: 4rem;
 }
 p.left__content {
-    font-size: 1.2rem;
-    line-height: 3rem;
+  font-size: 1.2rem;
+  line-height: 3rem;
 }
 span.left__content {
-    font-size: 1.2rem;
-    
+  font-size: 1.2rem;
 }
 .routine__left {
-    width: 43rem;
-    display: grid;
-    justify-items: center;
-    text-align: center;
-    font-size: 1.2rem;
+  width: 43rem;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  font-size: 1.2rem;
 }
 .image-group {
-    display: flex;
-    width: 29rem;
+  display: flex;
+  width: 29rem;
 }
 .container__routine {
-    /* width: 100%; */
-    display: flex;
-    align-content: flex-end;
-    justify-content: center;
+  /* width: 100%; */
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
 }
-button.routine__left__btn {
-    width: 20rem;
-    height: 4rem;
-    font-size: 1.7rem;
-    color: white;
-    display: flow;
-    border-radius: 13px;
-    background: #4f874f;
-    margin: 1.5rem 0rem 2.5rem 0rem;
+a.routine__left__btn {
+  margin: 1rem 0rem;
+  background: #8de48d;
+  color: #ffff;
+  width: 14rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  font-weight: bold;
 }
-.routine__left__btn:hover{
-    background:#bdd9bd ;
-    cursor: pointer;
+.routine__left__btn:hover {
+  background: #bdd9bd;
+  cursor: pointer;
 }
 p.left__contentbot {
-    font-size: 14px;
+  font-size: 14px;
 }
 section.InfoRoutine {
-    width: 100%;
-    display: grid;
-    justify-content: center;
+  width: 100%;
+  display: grid;
+  justify-content: center;
 }
 .container__inforoutine {
-    width: 79%;
-    height: auto;
-    /* display: grid; */
-    text-align: center;
+  width: 79%;
+  height: auto;
+  /* display: grid; */
+  text-align: center;
 }
 .InfoRoutine__wrapper {
-    display: grid;
-    justify-items: center;
+  display: grid;
+  justify-items: center;
 }
 .inforoutine__content {
-    font-size: 19px;
-    line-height: 2rem;
+  font-size: 19px;
+  line-height: 2rem;
 }
 .inforoutine__title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 2rem 0rem;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem 0rem;
 }
 .InfoRoutine::before {
+  display: flex;
+  content: "";
+  height: 1px;
+  background: black;
+  width: 100%;
+  transform: rotate(0deg);
+  margin-bottom: 2rem;
+}
+/* CSS BUILDROUTINE */
+section.BuildRoutine {
+  width: 100%;
+  height: 32rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content__BuildRoutine {
+  display: grid;
+  justify-items: center;
+  line-height: 2.3rem;
+}
+span.BuildRoutine__span,
+.age__title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  width: 25rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.content__link {
+  background: rgb(122 169 122);
+  margin-bottom: 6px;
+  width: 21rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: snow;
+  font-size: 1.2rem;
+}
+
+button.content__btn {
+  background: white;
+  width: 21rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border-radius: 2px;
+  border: 2px solid rgb(122 169 122);
+  color: rgb(122 169 122);
+}
+.container__btn {
+  width: 8rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn__back {
+  display: flex;
+  gap: 12px;
+}
+a.link__btn {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+p.icon__back {
+  font-size: 1.2rem;
+  display: flex;
+}
+.animated-section {
+  overflow: hidden; /* Ẩn nội dung vượt quá kích thước của phần tử */
+}
+
+.content__BuildRoutine {
+  animation: slide-in 0.5s ease-in-out; /* Áp dụng hiệu ứng slide-in */
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%); /* Di chuyển phần tử từ trái */
+    opacity: 0; /* Ẩn phần tử ban đầu */
+  }
+  to {
+    transform: translateX(0); /* Di chuyển phần tử về vị trí ban đầu */
+    opacity: 1; /* Hiển thị phần tử */
+  }
+}
+
+button.content__link__btn {
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.age__wrapper {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+img.image__content {
+  width: 243px;
+  height: 154px;
+}
+p.age__content {
+  display: flex;
+  justify-content: center;
+  background: rgb(122 169 122);
+}
+.age__image__left,
+.age__image__right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container__age.animation__fade-in {
+  height: 36rem;
+  width: 37%;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+}
+.container__age.animation__fade-in::-webkit-scrollbar {
+  width: 6px; /* Độ rộng của thanh cuộn */
+  background-color: transparent; /* Màu nền của thanh cuộn */
+}
+
+.container__age.animation__fade-in::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Màu của phần thumb (thanh di chuyển) */
+}
+
+.container__age.animation__fade-in::-webkit-scrollbar-track {
+  background-color: transparent; /* Màu của phần track (nền của thanh cuộn) */
+}
+.wrapper__builroutine {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  align-content: flex-start;
+}
+.container__BuildRoutine {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.animation__slide-in-left {
+  animation-name: slide-in-left;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animation__fade-in {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.container__mainskin {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 35rem;
+  align-content: center;
+  align-items: center;
+}
+.mainskin__divspan {
+  display: flex;
+  align-items: center; /* Căn giữa dọc */
+  justify-content: center; /* Căn giữa ngang */
+}
+
+.mainskine__span {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: cursive;
+  line-height: 48px;
+}
+.mainskin__divp {
+  display: flex;
+  width: 59%;
+  align-items: center;
+  justify-content: center;
+}
+
+p.mainskine__p {
+  text-align: center;
+  font-size: 22px;
+}
+table.mainskine__table {
     display: flex;
-    content: "";
-    height: 1px;
-    background: black;
+    flex-direction: column;
+    gap: 3rem;
     width: 100%;
-    transform: rotate(0deg);
-    margin-bottom: 2rem;
+}
+tr.mainskine__tr {
+    border: 0.1px solid gray;
+    display: flex;
+}
+.mainskin__select {
+    width: 34rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-family: monospace;
+    /* font-weight: bold; */
+}
+option {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.mainskin__button__div {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button.mainskin__button {
+    background: #87b09a;
+    width: 70%;
+    height: 2.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.mainskin__button:hover{
+    background: #b3d2c2;
 }

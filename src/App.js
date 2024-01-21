@@ -6,7 +6,7 @@ import Routine from "./pages/contact/Routine";
 import Home from "./pages/home/Home";
 import Marquee from "./components/Marquee";
 import Footer from "./components/Footer";
-
+import BuildRoutine from './pages/contact/BuildRoutine';
 function App() {
   return (
     <BrowserRouter>  
@@ -16,6 +16,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/exlore" element={<Explore />} />
         <Route path="/routine" element={<Routine />} />
+        <Route path="/pages/skin-quiz" element={<BuildRoutine />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
